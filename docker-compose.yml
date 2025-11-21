@@ -7,7 +7,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: vocabulary_db
-      MYSQL_USER: vocabuser
+      MYSQL_USER:  
       MYSQL_PASSWORD: vocabpass123
     ports:
       - "3306:3306"
